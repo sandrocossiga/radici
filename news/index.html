@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>News | Cooperativa Sociale Radici ETS</title>
+  <meta name="description" content="">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="icon" href="assets/icons/favicon.ico">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Cooperativa Sociale Radici ETS", "url": "https://radici.example", "logo": "https://radici.example/assets/logo.png", "sameAs": []}</script>
+</head>
+<body>
+  <header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html">
+      <img src="assets/logo.svg" alt="Radici logo" width="36" height="36"/>
+      <span>Radici ETS</span>
+    </a>
+    <nav class="main-nav" aria-label="Primaria">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">☰</button>
+      <ul id="nav-menu">
+        <li><a class="" href="index.html">Home</a></li>
+<li><a class="" href="chi-siamo.html">Chi Siamo</a></li>
+<li><a class="" href="servizi/index.html">Servizi</a></li>
+<li><a class="" href="strutture/index.html">Strutture</a></li>
+<li><a class="" href="trasparenza.html">Bandi & Trasparenza</a></li>
+<li><a class="" href="progetti.html">Progetti</a></li>
+<li><a class="active" href="news/index.html">News</a></li>
+<li><a class="" href="lavora-con-noi.html">Lavora con noi</a></li>
+<li><a class="" href="contatti.html">Contatti</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main id="content">
+    
+<section class="section">
+  <div class="container">
+    <h2>News</h2>
+    <p>Notizie sui nostri progetti, comunicazioni ai partner e alle famiglie, bandi e avvisi.</p>
+    <div class="grid-3">
+      <article class="card"><h3>Online il nuovo sito di Radici</h3><p>È online il nuovo portale con sezioni servizi, trasparenza e contatti.</p><p class="muted">21/09/2025</p></article>
+      <article class="card"><h3>Avvio sportello psicologico</h3><p>Attivo lo sportello in collaborazione con IC X.</p><p class="muted">15/09/2025</p></article>
+      <article class="card"><h3>Progetto Educativa in partenza</h3><p>Interventi domiciliari per 20 famiglie.</p><p class="muted">01/09/2025</p></article>
+    </div>
+  </div>
+</section>
+
+  </main>
+  <footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <h4>Cooperativa Sociale Radici ETS</h4>
+      <p>Sede legale: [Indirizzo completo]<br>PEC: [pec@radici.it]</p>
+      <p>P.IVA/C.F.: [XXXXXXXXXXXX] — REA [XXXXXXX]</p>
+    </div>
+    <div>
+      <h4>Link utili</h4>
+      <ul>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="cookie.html">Cookie</a></li>
+        <li><a href="termini.html">Termini &amp; Condizioni</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contatti</h4>
+      <ul>
+        <li><a href="mailto:info@radici.it">info@radici.it</a></li>
+        <li><a href="tel:+390000000000">+39 000 000 000</a></li>
+      </ul>
+      <div class="socials" aria-label="Social">
+        <a href="#" aria-label="Facebook">Fb</a>
+        <a href="#" aria-label="LinkedIn">In</a>
+      </div>
+    </div>
+  </div>
+  <div class="container small print">© 2025 Cooperativa Sociale Radici ETS. Tutti i diritti riservati.</div>
+</footer>
+<script>
+// Mobile nav
+const btn = document.querySelector('.nav-toggle');
+if(btn){ 
+  btn.addEventListener('click', ()=>{
+    const nav = document.getElementById('nav-menu');
+    const open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    nav.classList.toggle('open');
+  });
+}
+</script>
+
+</body>
+</html>
